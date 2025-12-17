@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Email Preview — 3 Styles</title>
+<style>
+  body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; background:#f4f6f8; margin:0; padding:40px; color:#222; }
+  .wrap { max-width:680px; margin:0 auto; }
+  .card { background:#fff; border-radius:12px; box-shadow:0 6px 18px rgba(22, 28, 37, 0.08); overflow:hidden; margin-bottom:18px; }
+  header.banner { padding:28px; text-align:center; background:linear-gradient(90deg,#6c5ce7,#00b4d8); color:#fff; }
+  header.banner h1 { margin:0; font-size:20px; letter-spacing:0.3px; }
+  .content { padding:22px; line-height:1.45; color:#111; }
+  .lead { font-size:16px; margin:0 0 12px 0; color:#333; }
+  .bullets { margin:10px 0 18px 0; padding-left:18px; color:#333; }
+  .cta { display:inline-block; text-decoration:none; padding:12px 18px; border-radius:10px; font-weight:600; }
+  .cta-primary { background: #ff6b6b; color:#fff; }
+  .cta-ghost { background: transparent; color:#ff6b6b; border:1px solid #ff6b6b; }
+  .meta { font-size:12px; color:#6b7280; margin-top:14px; }
+  .small { font-size:13px; color:#6b7280; }
+  .preview-toolbar { text-align:center; margin-bottom:16px; }
+  .btn-switch { display:inline-block; margin:0 6px; padding:8px 12px; border-radius:10px; background:#fff; border:1px solid #e6e9ee; cursor:pointer; font-weight:600; }
+  /* Template-specific */
+  .hero { background-image:linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0)); padding:150px; border-radius:20px; margin-bottom:13px; display:flex; gap:14px; align-items:center;}
+  .hero .thumb { width:96px; height:64px; border-radius:8px; background:linear-gradient(90deg,#ffe6e6,#ffd6d6); display:flex; align-items:center; justify-content:center; font-weight:700; color:#9b2c2c; }
+  .hero .txt { flex:1; }
+  footer{ text-align:center; font-size:12px; color:#8b94a6; padding:12px; }
+  /* Responsive */
+  @media (max-width:520px){
+    body{padding:18px;}
+    .thumb{width:72px;height:52px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="pro" class="card template">
+    <header class="banner">
+      <h1>PORNHUB.COM</h1>
+    </header>
+    <div class="content">
+      <p class="lead">Hi <strong>Deogratias1345</strong>,</p>
+      <p class="lead">We’ve published new content you can access right now.</p>
+
+<!-- HERO IMAGE WITH SHADOW -->
+<div style="border-radius:14px; overflow:hidden; 
+            box-shadow:0 6px 22px rgba(0,0,0,0.25); 
+            margin-bottom:14px;">
+
+  <img 
+  
+    src="https://ei.phncdn.com/videos/202502/21/464832665/original/(m=edLTGgaaaa)(mh=BuLEdV1mjGoU1eVu)14.jpg"
+    alt="Preview"
+    width="100%"
+    style="display:block; filter:brightness(70%);"
+  />
+
+  <!-- FAKE OVERLAY EFFECT (EMAIL COMPATIBLE) -->
+  <div style="
+      background:rgba(0,0,0,0.45);
+      color:#fff;
+      text-align:center;
+      padding:24px 14px;
+      font-size:18px;
+      font-weight:600;
+      backdrop-filter:blur(6px);
+      ">
+     Exclusive Session<br>
+    <span style="font-size:14px; font-weight:400; opacity:0.9;">
+      High-quality video + member-only photoset
+    </span>
+  </div>
+</div>
+
+
+      <ul class="bullets">
+        <li>Full HD feature with behind-the-scenes</li>
+        <li>Photoset available for members</li>
+        <li>Bonus clip free for the next 48 hours</li>
+      </ul>
+
+      <p style="text-align:center;">
+        <a class="cta cta-primary" href="[LINK]" target="_blank" rel="noopener">VIEW THE NEW RELEASES</a>
+      </p>
+      <p style="text-align:center;">
+        <a class="cta cta-primary" href="[LINK]" target="_blank" rel="noopener">UNSUBSCRIBE</a>
+      </p>
+
+      <p class="meta">Thanks for being part of <a href="[UNSUB_LINK]">PORNHUB.com</a>.</p>
+    <p class="small">If this message was not for you REPORT: <a href="[UNSUB_LINK]">HERE</a>.
+    <p class="small">If you prefer not to receive updates, <a href="[UNSUB_LINK]">unsubscribe</a>.</p>
+    </p>
+    </div>
+  </div>
+  <footer>
+    This preview contains placeholder text — replace bracketed items like <code>[Name]</code> with real values before sending.
+  </footer>
+</div>
+
+<script>
+function show(id){
+  document.querySelectorAll('.template').forEach(function(el){ el.style.display='none'; });
+  document.getElementById(id).style.display='block';
+}
+</script>
+</body>
+</html>
